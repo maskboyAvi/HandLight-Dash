@@ -19,7 +19,7 @@ HandLight Dash is an interactive Python-based game inspired by the classic "Red 
 1. Install the required Python libraries using the following command:
 
    ```bash
-   pip install cv2 cvzone numpy tensorflow tkinter PIL screeninfo
+   pip install opencv-python cvzone numpy tensorflow tk Pillow screeninfo
    ```
 
 2. Run the `main.py` script to start the game:
