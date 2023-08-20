@@ -19,7 +19,7 @@ class GreenRedLightGame:
 
         # Creating tkinter window
         self.root = root
-        self.root.title("Red Light Green Light")
+        self.root.title("HandLIGHT Dash")
 
         self.bg_image = Image.open("Images/bgimg.jpg")
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
@@ -35,14 +35,14 @@ class GreenRedLightGame:
         self.detector = HandDetector(maxHands=1)
         self.offset = 20
         self.imgSize = 300
-        self.model = load_model("hand_det_model2.h5", compile=False)
+        self.model = load_model("Weights/hand_det_model2.h5", compile=False)
         self.class_names = ["A","B","C","D","E","F"]
         self.gesture_names = ["HI","ROCK","VICTORY","THUMBS_UP","OK","NONE"]
-        self.hi = cv2.imread('Signs/Hi.png')
-        self.rock = cv2.imread('Signs/rock.png')
-        self.peace = cv2.imread('Signs/peace.png')
-        self.thumbUp = cv2.imread('Signs/thumbUp.png')
-        self.ok = cv2.imread('Signs/ok.png')
+        self.hi = cv2.imread('Images/Signs/Hi.png')
+        self.rock = cv2.imread('Images/Signs/rock.png')
+        self.peace = cv2.imread('Images/Signs/peace.png')
+        self.thumbUp = cv2.imread('Images/Signs/thumbUp.png')
+        self.ok = cv2.imread('Images/Signs/ok.png')
         self.gesture_imgList = [self.hi,self.rock,self.peace,self.thumbUp,self.ok]
 
         self.imoji = 0
