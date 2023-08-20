@@ -19,7 +19,7 @@ HandLight Dash is an interactive Python-based game inspired by the classic "Red 
 1. Install the required Python libraries using the following command:
 
    ```bash
-   pip install cv2 cvzone numpy tensorflow tkinter Pillow screeninfo
+   pip install cv2 cvzone numpy tensorflow tkinter PIL screeninfo
    ```
 
 2. Run the `main.py` script to start the game:
@@ -42,9 +42,12 @@ The game utilizes a custom-trained CNN model to recognize hand gestures. The mod
 
 ## Game Play
 
+![Screenshot (182)](https://github.com/maskboyAvi/HandLight-Dash/assets/123640350/6d7718e0-c30b-4301-98a8-d1aa8bc88ab4)
+![Screenshot (181)](https://github.com/maskboyAvi/HandLight-Dash/assets/123640350/917fdcbb-3c5d-40e8-97d1-392be340d84f)
+![Winner](https://github.com/maskboyAvi/HandLight-Dash/assets/123640350/82beef26-b838-4dce-b1f6-fbb87c91cbd8)
+![Screenshot (183)](https://github.com/maskboyAvi/HandLight-Dash/assets/123640350/ab0e6f3b-53c6-4832-811d-17aebae28d3e)
 
 ## Contributing
-
 Contributions are welcome! If you find any issues or have suggestions, please create an issue or submit a pull request.
 
 ## License
