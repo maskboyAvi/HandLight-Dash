@@ -16,13 +16,18 @@ HandLight Dash is an interactive Python-based game inspired by the classic "Red 
 
 ## Installation
 
-1. Install the required Python libraries using the following command:
+1. Get Weights for Model and Paste them in "Weights" folder 
+   ```bash
+   https://drive.google.com/drive/folders/1gjjKSwOo_BmY_1dYVEGBaaATKhi9n-vM
+   ```
+   
+2. Install the required Python libraries using the following command:
 
    ```bash
    pip install opencv-python cvzone numpy tensorflow tk Pillow screeninfo
    ```
 
-2. Run the `main.py` script to start the game:
+3. Run the `main.py` script to start the game:
 
    ```bash
    python main.py
