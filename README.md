@@ -1,4 +1,4 @@
-# HandLight Dash - Gesture-Based Python Game
+# HandLight-Dash
 
 ![Screenshot (180)](https://github.com/maskboyAvi/HandLight-Dash/assets/123640350/b824ecd8-e645-49c9-b97a-2a9a28a36118)
 
