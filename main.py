@@ -73,6 +73,15 @@ class GreenRedLightGame:
         self.WinImg = cv2.imread('Images/Winner.png')
            
 
+    # Reset all game-related attributes and state
+    def reset_game(self):
+        self.isAlive = True
+        self.winner = False
+        self.cPos = 0
+        self.isInit = False
+        self.isCinit = False
+        self.red_window = 0
+
     def play_game(self):
         first_frame = None
         while True:
@@ -239,6 +248,9 @@ class GreenRedLightGame:
         cv2.waitKey(0)
 
     def start_game(self):
+        #Restart game logic
+        self.reset_game()
+        
         self.start_button.config(state="disabled")
         self.cap = cv2.VideoCapture(0)
 
